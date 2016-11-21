@@ -4,6 +4,10 @@ import os
 #import glob
 import subprocess
 
+import cProfile, pstats, StringIO
+pr = cProfile.Profile()
+pr.enable()
+
 
 def percentage(part, whole):
   return 100 * float(part)/float(whole)
@@ -112,3 +116,12 @@ with tf.Session() as sess:
         #        human_string = label_lines[node_id]
         #        score = predictions[0][node_id]
         #        print('%s (score = %.5f)' % (human_string, score))
+
+pr.disable()
+s = StringIO.StringIO()
+sortby = 'cumulative'
+ps = pstats.Stats(pr, stream=s).sort_stats(sortby)
+ps.print_stats()
+#check_error=os.system("printf %s >> time.txt" %(s.getvalue()))
+open('time_chart.txt', 'w').write(s.getvalue())
+#print s.getvalue()
