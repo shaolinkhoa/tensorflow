@@ -1,0 +1,446 @@
+         2283393 function calls (2174341 primitive calls) in 1050.638 seconds
+
+   Ordered by: cumulative time
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+     1309    0.029    0.000  990.377    0.757 /home/khoa/tensorflow/local/lib/python2.7/site-packages/tensorflow/python/client/session.py:599(run)
+     1309    0.134    0.000  990.333    0.757 /home/khoa/tensorflow/local/lib/python2.7/site-packages/tensorflow/python/client/session.py:835(_run)
+     1309    0.010    0.000  989.609    0.756 /home/khoa/tensorflow/local/lib/python2.7/site-packages/tensorflow/python/client/session.py:916(_do_run)
+     1309    0.004    0.000  989.599    0.756 /home/khoa/tensorflow/local/lib/python2.7/site-packages/tensorflow/python/client/session.py:963(_do_call)
+     1309    0.040    0.000  989.595    0.756 /home/khoa/tensorflow/local/lib/python2.7/site-packages/tensorflow/python/client/session.py:940(_run_fn)
+     1309  988.335    0.755  988.335    0.755 {_pywrap_tensorflow.TF_Run}
+     2646   56.390    0.021   56.390    0.021 {posix.system}
+     2621    0.033    0.000    2.484    0.001 /home/khoa/tensorflow/local/lib/python2.7/site-packages/tensorflow/python/platform/gfile.py:39(sync)
+     1310    0.008    0.000    2.423    0.002 /home/khoa/tensorflow/local/lib/python2.7/site-packages/tensorflow/python/platform/gfile.py:189(read)
+     1311    2.422    0.002    2.422    0.002 {method 'read' of 'file' objects}
+     1309    0.012    0.000    1.170    0.001 /home/khoa/tensorflow/local/lib/python2.7/site-packages/tensorflow/python/client/session.py:980(_extend_graph)
+        1    0.045    0.045    0.914    0.914 /home/khoa/tensorflow/local/lib/python2.7/site-packages/tensorflow/python/framework/importer.py:152(import_graph_def)
+33477/10366    0.085    0.000    0.753    0.000 /home/khoa/tensorflow/local/lib/python2.7/site-packages/google/protobuf/internal/python_message.py:1035(ByteSize)
+50890/34490    0.356    0.000    0.699    0.000 /home/khoa/tensorflow/local/lib/python2.7/site-packages/google/protobuf/internal/python_message.py:474(init)
+        1    0.005    0.005    0.625    0.625 /home/khoa/tensorflow/local/lib/python2.7/site-packages/google/protobuf/internal/python_message.py:1057(SerializeToString)
+        1    0.000    0.000    0.615    0.615 /home/khoa/tensorflow/local/lib/python2.7/site-packages/google/protobuf/internal/python_message.py:1071(SerializePartialToString)
+     1007    0.015    0.000    0.615    0.001 /home/khoa/tensorflow/local/lib/python2.7/site-packages/tensorflow/python/framework/ops.py:2241(create_op)
+     3021    0.030    0.000    0.611    0.000 /home/khoa/tensorflow/local/lib/python2.7/site-packages/google/protobuf/internal/encoder.py:351(FieldSize)
+34818/15440    0.126    0.000    0.580    0.000 /home/khoa/tensorflow/local/lib/python2.7/site-packages/google/protobuf/internal/python_message.py:1233(MergeFrom)
+   7346/1    0.019    0.000    0.534    0.534 /home/khoa/tensorflow/local/lib/python2.7/site-packages/google/protobuf/internal/python_message.py:1077(InternalSerialize)
+    477/1    0.006    0.000    0.534    0.534 /home/khoa/tensorflow/local/lib/python2.7/site-packages/google/protobuf/internal/encoder.py:753(EncodeRepeatedField)
+     1007    0.018    0.000    0.451    0.000 /home/khoa/tensorflow/local/lib/python2.7/site-packages/tensorflow/python/framework/ops.py:1148(__init__)
+        1    0.006    0.006    0.422    0.422 /home/khoa/tensorflow/local/lib/python2.7/site-packages/tensorflow/python/framework/ops.py:2098(_as_graph_def)
+        1    0.000    0.000    0.354    0.354 /home/khoa/tensorflow/local/lib/python2.7/site-packages/google/protobuf/message.py:178(ParseFromString)
+        1    0.000    0.000    0.354    0.354 /home/khoa/tensorflow/local/lib/python2.7/site-packages/google/protobuf/internal/python_message.py:1088(MergeFromString)
+   7345/1    0.030    0.000    0.354    0.354 /home/khoa/tensorflow/local/lib/python2.7/site-packages/google/protobuf/internal/python_message.py:1108(InternalParse)
+    477/1    0.006    0.000    0.354    0.354 /home/khoa/tensorflow/local/lib/python2.7/site-packages/google/protobuf/internal/decoder.py:601(DecodeRepeatedField)
+     1007    0.018    0.000    0.302    0.000 /home/khoa/tensorflow/local/lib/python2.7/site-packages/google/protobuf/internal/decoder.py:730(DecodeMap)
+     1007    0.009    0.000    0.296    0.000 /home/khoa/tensorflow/local/lib/python2.7/site-packages/google/protobuf/internal/encoder.py:818(EncodeField)
+4871/4381    0.029    0.000    0.283    0.000 /home/khoa/tensorflow/local/lib/python2.7/site-packages/google/protobuf/internal/containers.py:379(extend)
+     2014    0.015    0.000    0.253    0.000 /home/khoa/tensorflow/local/lib/python2.7/site-packages/google/protobuf/internal/containers.py:595(MergeFrom)
+    21114    0.045    0.000    0.249    0.000 /home/khoa/tensorflow/local/lib/python2.7/site-packages/google/protobuf/internal/python_message.py:429(MakeSubMessageDefault)
+20071/8948    0.020    0.000    0.236    0.000 /home/khoa/tensorflow/local/lib/python2.7/site-packages/google/protobuf/internal/encoder.py:307(FieldSize)
+    29911    0.052    0.000    0.210    0.000 /home/khoa/tensorflow/local/lib/python2.7/site-packages/google/protobuf/internal/containers.py:541(__getitem__)
+     1309    0.045    0.000    0.200    0.000 /home/khoa/tensorflow/local/lib/python2.7/site-packages/tensorflow/python/client/session.py:347(__init__)
+5578/2238    0.010    0.000    0.194    0.000 /home/khoa/tensorflow/local/lib/python2.7/site-packages/google/protobuf/internal/encoder.py:760(EncodeField)
+    35716    0.070    0.000    0.191    0.000 /home/khoa/tensorflow/local/lib/python2.7/site-packages/google/protobuf/internal/python_message.py:790(ListFields)
+3340/2237    0.009    0.000    0.160    0.000 /home/khoa/tensorflow/local/lib/python2.7/site-packages/google/protobuf/internal/decoder.py:623(DecodeField)
+     1007    0.014    0.000    0.132    0.000 /home/khoa/tensorflow/local/lib/python2.7/site-packages/tensorflow/python/framework/ops.py:1080(_NodeDef)
+   228496    0.082    0.000    0.112    0.000 {isinstance}
+        1    0.109    0.109    0.109    0.109 {_pywrap_tensorflow.TF_ExtendGraph}
+    56416    0.065    0.000    0.109    0.000 /home/khoa/tensorflow/local/lib/python2.7/site-packages/google/protobuf/internal/python_message.py:1362(__init__)
+     1007    0.006    0.000    0.106    0.000 /home/khoa/tensorflow/local/lib/python2.7/site-packages/tensorflow/python/framework/ops.py:1701(set_shapes_for_outputs)
+     1007    0.008    0.000    0.104    0.000 /usr/lib/python2.7/copy.py:145(deepcopy)
+     3864    0.004    0.000    0.095    0.000 /home/khoa/tensorflow/local/lib/python2.7/site-packages/google/protobuf/internal/containers.py:393(MergeFrom)
+     1007    0.002    0.000    0.092    0.000 /home/khoa/tensorflow/local/lib/python2.7/site-packages/google/protobuf/message.py:69(__deepcopy__)
+     2619    0.011    0.000    0.090    0.000 /home/khoa/tensorflow/local/lib/python2.7/site-packages/tensorflow/python/framework/ops.py:2362(as_graph_element)
+        1    0.081    0.081    0.081    0.081 {method 'getvalue' of '_io.BytesIO' objects}
+     1309    0.019    0.000    0.080    0.000 /home/khoa/tensorflow/local/lib/python2.7/site-packages/tensorflow/python/util/nest.py:140(flatten_dict_items)
+62126/47651    0.047    0.000    0.079    0.000 /home/khoa/tensorflow/local/lib/python2.7/site-packages/google/protobuf/internal/python_message.py:1317(Modified)
+     2619    0.045    0.000    0.079    0.000 /home/khoa/tensorflow/local/lib/python2.7/site-packages/tensorflow/python/framework/ops.py:2394(_as_graph_element_locked)
+     1310    0.020    0.000    0.065    0.000 /home/khoa/tensorflow/local/lib/python2.7/site-packages/tensorflow/python/platform/gfile.py:221(__init__)
+3633/3631    0.048    0.000    0.064    0.000 /usr/lib/python2.7/contextlib.py:21(__exit__)
+     1309    0.012    0.000    0.061    0.000 /home/khoa/tensorflow/local/lib/python2.7/site-packages/tensorflow/python/client/session.py:162(for_fetch)
+    35716    0.045    0.000    0.059    0.000 {method 'sort' of 'list' objects}
+     2618    0.028    0.000    0.058    0.000 /home/khoa/tensorflow/local/lib/python2.7/site-packages/tensorflow/python/framework/ops.py:315(name)
+    42780    0.054    0.000    0.054    0.000 {method 'write' of '_io.BytesIO' objects}
+      789    0.051    0.000    0.053    0.000 /home/khoa/tensorflow/local/lib/python2.7/site-packages/google/protobuf/internal/decoder.py:534(DecodeField)
+     1309    0.009    0.000    0.053    0.000 /home/khoa/tensorflow/local/lib/python2.7/site-packages/tensorflow/python/util/nest.py:70(is_sequence)
+     2241    0.003    0.000    0.053    0.000 /home/khoa/tensorflow/local/lib/python2.7/site-packages/google/protobuf/message.py:106(CopyFrom)
+    63341    0.044    0.000    0.052    0.000 /home/khoa/tensorflow/local/lib/python2.7/site-packages/google/protobuf/internal/python_message.py:775(_IsPresent)
+      789    0.001    0.000    0.049    0.000 /home/khoa/tensorflow/local/lib/python2.7/site-packages/google/protobuf/internal/encoder.py:718(EncodeField)
+     1310    0.019    0.000    0.048    0.000 /home/khoa/tensorflow/local/lib/python2.7/site-packages/tensorflow/python/framework/tensor_shape.py:681(is_compatible_with)
+     2147    0.011    0.000    0.047    0.000 /home/khoa/tensorflow/local/lib/python2.7/site-packages/tensorflow/python/framework/ops.py:1412(_recompute_node_def)
+     1311    0.014    0.000    0.046    0.000 /home/khoa/tensorflow/local/lib/python2.7/site-packages/tensorflow/python/platform/gfile.py:51(__init__)
+    23454    0.024    0.000    0.046    0.000 /home/khoa/tensorflow/local/lib/python2.7/site-packages/google/protobuf/internal/type_checkers.py:162(CheckValue)
+     1309    0.008    0.000    0.045    0.000 /home/khoa/tensorflow/local/lib/python2.7/site-packages/tensorflow/python/client/session.py:198(__init__)
+     1041    0.006    0.000    0.044    0.000 /home/khoa/tensorflow/local/lib/python2.7/site-packages/tensorflow/python/framework/ops.py:1318(_add_input)
+    10964    0.013    0.000    0.041    0.000 /home/khoa/tensorflow/local/lib/python2.7/site-packages/google/protobuf/internal/python_message.py:660(field_setter)
+    13270    0.023    0.000    0.041    0.000 /home/khoa/tensorflow/local/lib/python2.7/site-packages/tensorflow/python/framework/ops.py:1289(name)
+   125055    0.039    0.000    0.039    0.000 {method 'items' of 'dict' objects}
+    41263    0.029    0.000    0.039    0.000 /home/khoa/tensorflow/local/lib/python2.7/site-packages/google/protobuf/internal/python_message.py:651(getter)
+    14990    0.018    0.000    0.038    0.000 /home/khoa/tensorflow/local/lib/python2.7/site-packages/google/protobuf/internal/encoder.py:246(FieldSize)
+    29442    0.037    0.000    0.037    0.000 {method 'encode' of 'unicode' objects}
+     2014    0.006    0.000    0.037    0.000 /home/khoa/tensorflow/local/lib/python2.7/site-packages/tensorflow/python/framework/importer.py:67(_ArgsToTypes)
+     8092    0.015    0.000    0.035    0.000 /home/khoa/tensorflow/local/lib/python2.7/site-packages/tensorflow/python/util/compat.py:27(as_bytes)
+     8951    0.009    0.000    0.035    0.000 {setattr}
+     1904    0.009    0.000    0.034    0.000 /home/khoa/tensorflow/local/lib/python2.7/site-packages/google/protobuf/internal/encoder.py:299(RepeatedFieldSize)
+     1309    0.006    0.000    0.032    0.000 /home/khoa/tensorflow/local/lib/python2.7/site-packages/numpy/core/numeric.py:414(asarray)
+    21503    0.018    0.000    0.032    0.000 /home/khoa/tensorflow/local/lib/python2.7/site-packages/google/protobuf/internal/python_message.py:606(getter)
+     1311    0.032    0.000    0.032    0.000 {open}
+    13856    0.022    0.000    0.031    0.000 /home/khoa/tensorflow/local/lib/python2.7/site-packages/google/protobuf/internal/decoder.py:117(DecodeVarint)
+     1312    0.014    0.000    0.029    0.000 /home/khoa/tensorflow/lib/python2.7/abc.py:128(__instancecheck__)
+      677    0.001    0.000    0.029    0.000 /home/khoa/tensorflow/local/lib/python2.7/site-packages/tensorflow/python/framework/tensor_shape.py:623(with_rank)
+      489    0.003    0.000    0.029    0.000 /home/khoa/tensorflow/local/lib/python2.7/site-packages/tensorflow/python/framework/constant_op.py:171(_ConstantShape)
+      845    0.007    0.000    0.028    0.000 /home/khoa/tensorflow/local/lib/python2.7/site-packages/tensorflow/python/framework/ops.py:1512(get_attr)
+     2013    0.003    0.000    0.027    0.000 /home/khoa/tensorflow/local/lib/python2.7/site-packages/tensorflow/python/framework/importer.py:60(_SingleArgToTypes)
+     4598    0.016    0.000    0.027    0.000 /home/khoa/tensorflow/local/lib/python2.7/site-packages/tensorflow/python/framework/tensor_shape.py:417(__init__)
+     1321    0.027    0.000    0.027    0.000 {numpy.core.multiarray.array}
+     1757    0.006    0.000    0.027    0.000 /home/khoa/tensorflow/local/lib/python2.7/site-packages/tensorflow/python/framework/tensor_shape.py:542(merge_with)
+   114976    0.025    0.000    0.025    0.000 {method 'get' of 'dict' objects}
+       94    0.002    0.000    0.025    0.000 /home/khoa/tensorflow/local/lib/python2.7/site-packages/tensorflow/python/framework/common_shapes.py:187(conv2d_shape)
+    56416    0.025    0.000    0.025    0.000 {_weakref.proxy}
+    58731    0.021    0.000    0.024    0.000 /home/khoa/tensorflow/local/lib/python2.7/site-packages/google/protobuf/internal/python_message.py:1381(Modified)
+     1311    0.012    0.000    0.024    0.000 /home/khoa/tensorflow/local/lib/python2.7/site-packages/tensorflow/python/framework/ops.py:2551(as_default)
+     1310    0.005    0.000    0.024    0.000 /home/khoa/tensorflow/local/lib/python2.7/site-packages/tensorflow/python/platform/gfile.py:73(__del__)
+     3888    0.009    0.000    0.023    0.000 /home/khoa/tensorflow/local/lib/python2.7/site-packages/tensorflow/python/framework/tensor_shape.py:796(as_shape)
+     1007    0.002    0.000    0.023    0.000 /home/khoa/tensorflow/local/lib/python2.7/site-packages/tensorflow/python/framework/importer.py:79(_OutputTypes)
+     2013    0.006    0.000    0.023    0.000 /home/khoa/tensorflow/local/lib/python2.7/site-packages/tensorflow/python/framework/importer.py:42(_ArgToTypesNoRef)
+       94    0.002    0.000    0.022    0.000 /home/khoa/tensorflow/local/lib/python2.7/site-packages/tensorflow/python/ops/nn_ops.py:737(_BatchNormShape)
+     1007    0.003    0.000    0.022    0.000 /home/khoa/tensorflow/local/lib/python2.7/site-packages/tensorflow/python/framework/importer.py:74(_InputTypes)
+114513/111539    0.021    0.000    0.022    0.000 {len}
+     1309    0.016    0.000    0.022    0.000 /home/khoa/tensorflow/local/lib/python2.7/site-packages/tensorflow/python/client/session.py:400(build_results)
+    13664    0.014    0.000    0.021    0.000 /home/khoa/tensorflow/local/lib/python2.7/site-packages/google/protobuf/internal/encoder.py:372(EncodeVarint)
+3633/3631    0.008    0.000    0.021    0.000 /usr/lib/python2.7/contextlib.py:15(__enter__)
+     5526    0.009    0.000    0.020    0.000 /home/khoa/tensorflow/local/lib/python2.7/site-packages/google/protobuf/internal/python_message.py:1406(Modified)
+    20747    0.015    0.000    0.020    0.000 /home/khoa/tensorflow/local/lib/python2.7/site-packages/google/protobuf/internal/python_message.py:1332(_UpdateOneofState)
+     1309    0.010    0.000    0.019    0.000 /home/khoa/tensorflow/local/lib/python2.7/site-packages/tensorflow/python/client/session.py:1020(_update_with_movers)
+     1767    0.005    0.000    0.019    0.000 /home/khoa/tensorflow/local/lib/python2.7/site-packages/google/protobuf/internal/containers.py:368(add)
+     1311    0.019    0.000    0.019    0.000 {method 'close' of 'file' objects}
+     3633    0.016    0.000    0.019    0.000 /usr/lib/python2.7/contextlib.py:82(helper)
+     7893    0.015    0.000    0.019    0.000 /home/khoa/tensorflow/local/lib/python2.7/site-packages/google/protobuf/internal/python_message.py:821(HasField)
+    13078    0.012    0.000    0.018    0.000 /home/khoa/tensorflow/local/lib/python2.7/site-packages/google/protobuf/internal/decoder.py:169(ReadTag)
+     4251    0.007    0.000    0.017    0.000 /home/khoa/tensorflow/local/lib/python2.7/site-packages/google/protobuf/internal/encoder.py:695(EncodeField)
+     2624    0.009    0.000    0.017    0.000 /home/khoa/tensorflow/local/lib/python2.7/site-packages/tensorflow/python/framework/errors.py:441(raise_exception_on_not_ok_status)
+     1309    0.017    0.000    0.017    0.000 {method 'argsort' of 'numpy.ndarray' objects}
+     4251    0.006    0.000    0.017    0.000 /home/khoa/tensorflow/local/lib/python2.7/site-packages/google/protobuf/internal/decoder.py:497(DecodeField)
+    33356    0.013    0.000    0.017    0.000 /home/khoa/tensorflow/local/lib/python2.7/site-packages/six.py:654(indexbytes)
+     5526    0.009    0.000    0.017    0.000 /home/khoa/tensorflow/local/lib/python2.7/site-packages/google/protobuf/internal/python_message.py:1397(__init__)
+     1309    0.016    0.000    0.016    0.000 OCR_image.py:12(percentage)
+     6032    0.015    0.000    0.016    0.000 {getattr}
+     4886    0.006    0.000    0.016    0.000 /home/khoa/tensorflow/local/lib/python2.7/site-packages/google/protobuf/internal/python_message.py:421(MakeRepeatedScalarDefault)
+     1309    0.012    0.000    0.016    0.000 /home/khoa/tensorflow/local/lib/python2.7/site-packages/tensorflow/python/client/session.py:837(_feed_fn)
+     1312    0.006    0.000    0.016    0.000 /home/khoa/tensorflow/local/lib/python2.7/site-packages/tensorflow/python/framework/ops.py:3736(get_default_graph)
+     2618    0.016    0.000    0.016    0.000 /home/khoa/tensorflow/local/lib/python2.7/site-packages/tensorflow/python/framework/ops.py:2036(version)
+     2619    0.004    0.000    0.015    0.000 /home/khoa/tensorflow/local/lib/python2.7/site-packages/tensorflow/python/framework/ops.py:124(_as_graph_element)
+    38916    0.015    0.000    0.015    0.000 /home/khoa/tensorflow/local/lib/python2.7/site-packages/google/protobuf/internal/python_message.py:1004(SetListener)
+     4356    0.006    0.000    0.015    0.000 /home/khoa/tensorflow/local/lib/python2.7/site-packages/google/protobuf/internal/python_message.py:415(MakeRepeatedMessageDefault)
+     2248    0.010    0.000    0.014    0.000 /home/khoa/tensorflow/local/lib/python2.7/site-packages/google/protobuf/internal/containers.py:261(extend)
+    61330    0.014    0.000    0.014    0.000 /home/khoa/tensorflow/local/lib/python2.7/site-packages/google/protobuf/internal/python_message.py:792(<lambda>)
+     2056    0.004    0.000    0.013    0.000 /home/khoa/tensorflow/local/lib/python2.7/site-packages/tensorflow/python/framework/tensor_shape.py:110(merge_with)
+    30333    0.013    0.000    0.013    0.000 /home/khoa/tensorflow/local/lib/python2.7/site-packages/google/protobuf/internal/containers.py:202(__getitem__)
+     1007    0.011    0.000    0.013    0.000 /home/khoa/tensorflow/local/lib/python2.7/site-packages/tensorflow/python/framework/ops.py:93(_extract_stack)
+     1007    0.007    0.000    0.013    0.000 /home/khoa/tensorflow/local/lib/python2.7/site-packages/tensorflow/python/framework/ops.py:2010(_add_op)
+     1321    0.012    0.000    0.012    0.000 /home/khoa/tensorflow/lib/python2.7/_weakrefset.py:70(__contains__)
+     1309    0.012    0.000    0.012    0.000 {_pywrap_tensorflow.TF_NewBuffer}
+      518    0.003    0.000    0.012    0.000 /home/khoa/tensorflow/local/lib/python2.7/site-packages/google/protobuf/internal/decoder.py:480(DecodeRepeatedField)
+     2624    0.010    0.000    0.011    0.000 /home/khoa/tensorflow/local/lib/python2.7/site-packages/tensorflow/python/framework/ops.py:3525(get_controller)
+     1060    0.002    0.000    0.011    0.000 /home/khoa/tensorflow/local/lib/python2.7/site-packages/google/protobuf/internal/python_message.py:1274(WhichOneof)
+     2007    0.005    0.000    0.010    0.000 /home/khoa/tensorflow/local/lib/python2.7/site-packages/tensorflow/python/framework/importer.py:35(_GetNodeAttr)
+     1036    0.005    0.000    0.010    0.000 /home/khoa/tensorflow/local/lib/python2.7/site-packages/google/protobuf/internal/encoder.py:238(RepeatedFieldSize)
+     1140    0.005    0.000    0.010    0.000 /home/khoa/tensorflow/local/lib/python2.7/site-packages/tensorflow/python/framework/importer.py:123(_CanonicalInputName)
+     4886    0.007    0.000    0.010    0.000 /home/khoa/tensorflow/local/lib/python2.7/site-packages/google/protobuf/internal/containers.py:237(__init__)
+     4479    0.005    0.000    0.010    0.000 /home/khoa/tensorflow/local/lib/python2.7/site-packages/google/protobuf/internal/python_message.py:894(Clear)
+     1312    0.006    0.000    0.010    0.000 /home/khoa/tensorflow/local/lib/python2.7/site-packages/tensorflow/python/framework/ops.py:3701(get_default)
+     1309    0.007    0.000    0.010    0.000 /home/khoa/tensorflow/local/lib/python2.7/site-packages/tensorflow/python/framework/ops.py:3416(is_feedable)
+    25988    0.010    0.000    0.010    0.000 {method 'append' of 'list' objects}
+     4028    0.006    0.000    0.009    0.000 /home/khoa/tensorflow/local/lib/python2.7/site-packages/google/protobuf/internal/python_message.py:379(MakeMessageMapDefault)
+     9076    0.005    0.000    0.009    0.000 /home/khoa/tensorflow/local/lib/python2.7/site-packages/google/protobuf/internal/encoder.py:148(FieldSize)
+    44093    0.009    0.000    0.009    0.000 /home/khoa/tensorflow/local/lib/python2.7/site-packages/google/protobuf/internal/encoder.py:82(_VarintSize)
+     4356    0.006    0.000    0.008    0.000 /home/khoa/tensorflow/local/lib/python2.7/site-packages/google/protobuf/internal/containers.py:350(__init__)
+     2557    0.002    0.000    0.008    0.000 /home/khoa/tensorflow/local/lib/python2.7/site-packages/google/protobuf/internal/decoder.py:238(DecodeField)
+     2305    0.003    0.000    0.008    0.000 /home/khoa/tensorflow/local/lib/python2.7/site-packages/tensorflow/python/framework/ops.py:436(_as_node_def_input)
+     2316    0.006    0.000    0.008    0.000 /home/khoa/tensorflow/local/lib/python2.7/site-packages/six.py:598(iteritems)
+     1309    0.002    0.000    0.008    0.000 /home/khoa/tensorflow/local/lib/python2.7/site-packages/tensorflow/python/ops/session_ops.py:249(_get_handle_mover)
+     9679    0.004    0.000    0.008    0.000 /home/khoa/tensorflow/local/lib/python2.7/site-packages/tensorflow/python/framework/tensor_shape.py:358(as_dimension)
+     8056    0.006    0.000    0.008    0.000 /home/khoa/tensorflow/local/lib/python2.7/site-packages/google/protobuf/internal/containers.py:589(__iter__)
+     2350    0.008    0.000    0.008    0.000 /home/khoa/tensorflow/local/lib/python2.7/site-packages/tensorflow/python/framework/ops.py:305(dtype)
+     9981    0.006    0.000    0.007    0.000 /home/khoa/tensorflow/local/lib/python2.7/site-packages/google/protobuf/internal/containers.py:206(__len__)
+     1007    0.004    0.000    0.007    0.000 /home/khoa/tensorflow/local/lib/python2.7/site-packages/tensorflow/python/framework/ops.py:278(__init__)
+     1309    0.002    0.000    0.007    0.000 /home/khoa/tensorflow/local/lib/python2.7/site-packages/tensorflow/python/client/session.py:379(_assert_fetchable)
+     1685    0.003    0.000    0.007    0.000 /home/khoa/tensorflow/local/lib/python2.7/site-packages/tensorflow/python/framework/tensor_shape.py:804(unknown_shape)
+     2016    0.002    0.000    0.007    0.000 {method 'decode' of 'str' objects}
+    28870    0.007    0.000    0.007    0.000 {method 'setdefault' of 'dict' objects}
+     1323    0.006    0.000    0.006    0.000 /home/khoa/tensorflow/local/lib/python2.7/site-packages/tensorflow/python/framework/dtypes.py:128(as_numpy_dtype)
+     2269    0.002    0.000    0.006    0.000 /home/khoa/tensorflow/local/lib/python2.7/site-packages/google/protobuf/internal/encoder.py:458(EncodeField)
+       11    0.001    0.000    0.006    0.001 /home/khoa/tensorflow/local/lib/python2.7/site-packages/tensorflow/python/ops/array_ops.py:725(_ConcatShape)
+      518    0.003    0.000    0.006    0.000 /home/khoa/tensorflow/local/lib/python2.7/site-packages/google/protobuf/internal/encoder.py:687(EncodeRepeatedField)
+     1309    0.003    0.000    0.006    0.000 /home/khoa/tensorflow/local/lib/python2.7/site-packages/tensorflow/python/ops/session_ops.py:229(_get_handle_feeder)
+     3394    0.006    0.000    0.006    0.000 {method 'split' of 'str' objects}
+    17900    0.006    0.000    0.006    0.000 /home/khoa/tensorflow/local/lib/python2.7/site-packages/google/protobuf/internal/python_message.py:537(_GetFieldByName)
+     2333    0.004    0.000    0.006    0.000 /home/khoa/tensorflow/local/lib/python2.7/site-packages/tensorflow/python/framework/ops.py:1475(type)
+     2769    0.004    0.000    0.006    0.000 /home/khoa/tensorflow/local/lib/python2.7/site-packages/google/protobuf/internal/decoder.py:137(DecodeVarint)
+     3794    0.004    0.000    0.006    0.000 /home/khoa/tensorflow/local/lib/python2.7/site-packages/tensorflow/python/framework/tensor_shape.py:28(__init__)
+     3244    0.003    0.000    0.005    0.000 /home/khoa/tensorflow/local/lib/python2.7/site-packages/google/protobuf/internal/containers.py:92(iteritems)
+     1645    0.002    0.000    0.005    0.000 /home/khoa/tensorflow/local/lib/python2.7/site-packages/google/protobuf/internal/containers.py:249(append)
+    11576    0.005    0.000    0.005    0.000 /home/khoa/tensorflow/local/lib/python2.7/site-packages/google/protobuf/internal/encoder.py:96(_SignedVarintSize)
+     2151    0.001    0.000    0.005    0.000 /home/khoa/tensorflow/local/lib/python2.7/site-packages/tensorflow/python/framework/tensor_shape.py:96(assert_is_compatible_with)
+   1009/1    0.004    0.000    0.005    0.005 /home/khoa/tensorflow/local/lib/python2.7/site-packages/google/protobuf/internal/python_message.py:1141(IsInitialized)
+     2609    0.003    0.000    0.005    0.000 /home/khoa/tensorflow/local/lib/python2.7/site-packages/google/protobuf/internal/containers.py:280(MergeFrom)
+     1309    0.004    0.000    0.005    0.000 /home/khoa/tensorflow/local/lib/python2.7/site-packages/tensorflow/python/framework/ops.py:3424(is_fetchable)
+        1    0.000    0.000    0.005    0.005 /usr/lib/python2.7/subprocess.py:650(__init__)
+    20086    0.005    0.000    0.005    0.000 {chr}
+     2769    0.004    0.000    0.005    0.000 /home/khoa/tensorflow/local/lib/python2.7/site-packages/google/protobuf/internal/encoder.py:388(EncodeSignedVarint)
+     2364    0.004    0.000    0.005    0.000 /home/khoa/tensorflow/local/lib/python2.7/site-packages/tensorflow/python/framework/ops.py:310(graph)
+     2082    0.004    0.000    0.005    0.000 /home/khoa/tensorflow/local/lib/python2.7/site-packages/tensorflow/python/framework/importer.py:89(_ParseTensorName)
+     5699    0.004    0.000    0.005    0.000 /home/khoa/tensorflow/local/lib/python2.7/site-packages/tensorflow/python/framework/tensor_shape.py:467(ndims)
+     9242    0.005    0.000    0.005    0.000 /home/khoa/tensorflow/local/lib/python2.7/site-packages/google/protobuf/internal/containers.py:192(__init__)
+        1    0.000    0.000    0.005    0.005 /usr/lib/python2.7/subprocess.py:1187(_execute_child)
+     1007    0.003    0.000    0.005    0.000 /home/khoa/tensorflow/local/lib/python2.7/site-packages/google/protobuf/internal/containers.py:99(items)
+     2533    0.005    0.000    0.005    0.000 {zip}
+     5391    0.004    0.000    0.004    0.000 /home/khoa/tensorflow/local/lib/python2.7/site-packages/google/protobuf/internal/decoder.py:467(_ConvertToUnicode)
+     2014    0.002    0.000    0.004    0.000 /home/khoa/tensorflow/lib/python2.7/encodings/utf_8.py:15(decode)
+      536    0.003    0.000    0.004    0.000 /home/khoa/tensorflow/local/lib/python2.7/site-packages/google/protobuf/internal/encoder.py:134(PackedFieldSize)
+     5372    0.004    0.000    0.004    0.000 /home/khoa/tensorflow/local/lib/python2.7/site-packages/tensorflow/python/framework/ops.py:1422(outputs)
+      136    0.001    0.000    0.004    0.000 /home/khoa/tensorflow/local/lib/python2.7/site-packages/google/protobuf/internal/decoder.py:202(DecodePackedField)
+     1041    0.002    0.000    0.004    0.000 /home/khoa/tensorflow/local/lib/python2.7/site-packages/tensorflow/python/framework/dtypes.py:218(is_compatible_with)
+     1312    0.004    0.000    0.004    0.000 {_pywrap_tensorflow.TF_GetCode}
+     1007    0.002    0.000    0.004    0.000 /home/khoa/tensorflow/local/lib/python2.7/site-packages/tensorflow/python/framework/registry.py:70(lookup)
+     3156    0.003    0.000    0.004    0.000 /home/khoa/tensorflow/local/lib/python2.7/site-packages/google/protobuf/internal/encoder.py:268(FieldSize)
+     2153    0.002    0.000    0.004    0.000 /home/khoa/tensorflow/local/lib/python2.7/site-packages/tensorflow/python/framework/tensor_shape.py:79(is_compatible_with)
+     4168    0.003    0.000    0.004    0.000 /home/khoa/tensorflow/local/lib/python2.7/site-packages/tensorflow/python/framework/dtypes.py:500(as_dtype)
+    13894    0.004    0.000    0.004    0.000 {iter}
+      750    0.002    0.000    0.004    0.000 /home/khoa/tensorflow/local/lib/python2.7/site-packages/tensorflow/python/framework/tensor_shape.py:595(assert_same_rank)
+    33356    0.004    0.000    0.004    0.000 {ord}
+     1309    0.004    0.000    0.004    0.000 {method 'find' of 'str' objects}
+     3465    0.002    0.000    0.004    0.000 /home/khoa/tensorflow/local/lib/python2.7/site-packages/tensorflow/python/framework/tensor_shape.py:488(__getitem__)
+       99    0.000    0.000    0.004    0.000 /home/khoa/tensorflow/local/lib/python2.7/site-packages/tensorflow/python/framework/ops.py:1399(_add_control_input)
+     1007    0.003    0.000    0.004    0.000 /home/khoa/tensorflow/local/lib/python2.7/site-packages/tensorflow/python/framework/ops.py:2540(_next_id)
+     5238    0.004    0.000    0.004    0.000 /home/khoa/tensorflow/local/lib/python2.7/site-packages/tensorflow/python/client/session.py:528(graph)
+     1007    0.004    0.000    0.004    0.000 {method 'match' of '_sre.SRE_Pattern' objects}
+     1312    0.003    0.000    0.003    0.000 /home/khoa/tensorflow/local/lib/python2.7/site-packages/tensorflow/python/framework/ops.py:3511(get_default)
+       99    0.000    0.000    0.003    0.000 /home/khoa/tensorflow/local/lib/python2.7/site-packages/tensorflow/python/framework/ops.py:1381(_add_control_inputs)
+     4028    0.003    0.000    0.003    0.000 /home/khoa/tensorflow/local/lib/python2.7/site-packages/google/protobuf/internal/containers.py:586(__len__)
+     3633    0.003    0.000    0.003    0.000 /usr/lib/python2.7/contextlib.py:12(__init__)
+      108    0.000    0.000    0.003    0.000 /home/khoa/tensorflow/local/lib/python2.7/site-packages/tensorflow/python/framework/common_shapes.py:179(get2d_conv_output_size)
+     1323    0.002    0.000    0.003    0.000 /home/khoa/tensorflow/local/lib/python2.7/site-packages/tensorflow/python/framework/ops.py:467(__hash__)
+     6556    0.003    0.000    0.003    0.000 {hasattr}
+     2147    0.003    0.000    0.003    0.000 /home/khoa/tensorflow/local/lib/python2.7/site-packages/google/protobuf/internal/containers.py:325(__delslice__)
+     1007    0.003    0.000    0.003    0.000 /usr/lib/python2.7/copy.py:267(_keep_alive)
+     4028    0.003    0.000    0.003    0.000 /home/khoa/tensorflow/local/lib/python2.7/site-packages/google/protobuf/internal/containers.py:525(__init__)
+      108    0.002    0.000    0.003    0.000 /home/khoa/tensorflow/local/lib/python2.7/site-packages/tensorflow/python/framework/common_shapes.py:137(get_conv_output_size)
+     1140    0.002    0.000    0.003    0.000 /home/khoa/tensorflow/local/lib/python2.7/site-packages/tensorflow/python/framework/ops.py:3754(_assert_same_graph)
+     3616    0.002    0.000    0.003    0.000 /home/khoa/tensorflow/local/lib/python2.7/site-packages/google/protobuf/internal/python_message.py:705(getter)
+     1312    0.003    0.000    0.003    0.000 {_pywrap_tensorflow.TF_NewStatus}
+        1    0.000    0.000    0.003    0.003 /usr/lib/python2.7/subprocess.py:473(_eintr_retry_call)
+     1007    0.001    0.000    0.003    0.000 /home/khoa/tensorflow/local/lib/python2.7/site-packages/tensorflow/python/framework/ops.py:377(set_shape)
+        1    0.003    0.003    0.003    0.003 {posix.read}
+     1309    0.003    0.000    0.003    0.000 {_pywrap_tensorflow.TF_DeleteBuffer}
+     1309    0.002    0.000    0.003    0.000 /home/khoa/tensorflow/local/lib/python2.7/site-packages/tensorflow/python/client/session.py:234(build_results)
+     2014    0.003    0.000    0.003    0.000 {_codecs.utf_8_decode}
+      134    0.001    0.000    0.003    0.000 /home/khoa/tensorflow/local/lib/python2.7/site-packages/google/protobuf/internal/encoder.py:440(EncodePackedField)
+     3859    0.003    0.000    0.003    0.000 /home/khoa/tensorflow/local/lib/python2.7/site-packages/google/protobuf/internal/containers.py:576(__contains__)
+     1309    0.003    0.000    0.003    0.000 {method 'iteritems' of 'dict' objects}
+     4028    0.002    0.000    0.002    0.000 /home/khoa/tensorflow/local/lib/python2.7/site-packages/tensorflow/python/framework/ops.py:1485(node_def)
+     1065    0.001    0.000    0.002    0.000 /home/khoa/tensorflow/local/lib/python2.7/site-packages/tensorflow/python/framework/dtypes.py:241(__eq__)
+     5863    0.002    0.000    0.002    0.000 {method 'extend' of 'list' objects}
+        9    0.000    0.000    0.002    0.000 /home/khoa/tensorflow/local/lib/python2.7/site-packages/tensorflow/python/framework/common_shapes.py:375(avg_pool_shape)
+       14    0.000    0.000    0.002    0.000 /home/khoa/tensorflow/local/lib/python2.7/site-packages/tensorflow/python/framework/tensor_util.py:601(constant_value)
+     1309    0.002    0.000    0.002    0.000 /home/khoa/tensorflow/local/lib/python2.7/site-packages/tensorflow/python/client/session.py:120(<lambda>)
+       14    0.000    0.000    0.002    0.000 /home/khoa/tensorflow/local/lib/python2.7/site-packages/tensorflow/python/framework/tensor_util.py:544(_ConstantValue)
+     2280    0.001    0.000    0.002    0.000 /home/khoa/tensorflow/local/lib/python2.7/site-packages/tensorflow/python/framework/importer.py:84(_IsControlInput)
+     1007    0.002    0.000    0.002    0.000 /home/khoa/tensorflow/local/lib/python2.7/site-packages/tensorflow/python/framework/ops.py:2827(unique_name)
+     1007    0.002    0.000    0.002    0.000 /home/khoa/tensorflow/local/lib/python2.7/site-packages/tensorflow/python/framework/ops.py:3151(_control_dependencies_for_inputs)
+     1309    0.002    0.000    0.002    0.000 /home/khoa/tensorflow/local/lib/python2.7/site-packages/tensorflow/python/client/session.py:119(<lambda>)
+        1    0.002    0.002    0.002    0.002 {posix.fork}
+     1041    0.001    0.000    0.002    0.000 /home/khoa/tensorflow/local/lib/python2.7/site-packages/tensorflow/python/framework/ops.py:1269(values)
+     3958    0.002    0.000    0.002    0.000 /home/khoa/tensorflow/local/lib/python2.7/site-packages/tensorflow/python/framework/ops.py:300(op)
+     1018    0.001    0.000    0.002    0.000 /home/khoa/tensorflow/local/lib/python2.7/site-packages/tensorflow/python/framework/ops.py:1450(inputs)
+       14    0.000    0.000    0.002    0.000 /home/khoa/tensorflow/local/lib/python2.7/site-packages/tensorflow/python/framework/tensor_util.py:437(MakeNdarray)
+     1041    0.001    0.000    0.001    0.000 /home/khoa/tensorflow/local/lib/python2.7/site-packages/tensorflow/python/framework/ops.py:423(_add_consumer)
+        5    0.000    0.000    0.001    0.000 /home/khoa/tensorflow/local/lib/python2.7/site-packages/tensorflow/python/framework/common_shapes.py:443(max_pool_shape)
+     1312    0.001    0.000    0.001    0.000 {_pywrap_tensorflow.TF_DeleteStatus}
+     1007    0.001    0.000    0.001    0.000 /home/khoa/tensorflow/local/lib/python2.7/site-packages/tensorflow/python/framework/ops.py:3008(_apply_device_functions)
+     4344    0.001    0.000    0.001    0.000 {id}
+     1312    0.001    0.000    0.001    0.000 {method 'pop' of 'list' objects}
+     2620    0.001    0.000    0.001    0.000 /home/khoa/tensorflow/local/lib/python2.7/site-packages/tensorflow/python/platform/gfile.py:243(lock)
+     3603    0.001    0.000    0.001    0.000 /home/khoa/tensorflow/local/lib/python2.7/site-packages/tensorflow/python/framework/ops.py:1480(graph)
+     1041    0.001    0.000    0.001    0.000 /home/khoa/tensorflow/local/lib/python2.7/site-packages/tensorflow/python/framework/dtypes.py:109(base_dtype)
+     2339    0.001    0.000    0.001    0.000 /home/khoa/tensorflow/local/lib/python2.7/site-packages/tensorflow/python/framework/ops.py:333(get_shape)
+      200    0.001    0.000    0.001    0.000 /home/khoa/tensorflow/local/lib/python2.7/site-packages/tensorflow/python/ops/array_ops.py:1424(_UnchangedShape)
+     2620    0.001    0.000    0.001    0.000 /home/khoa/tensorflow/local/lib/python2.7/site-packages/tensorflow/python/platform/gfile.py:246(unlock)
+     3021    0.001    0.000    0.001    0.000 /home/khoa/tensorflow/local/lib/python2.7/site-packages/tensorflow/python/framework/ops.py:2001(_check_not_finalized)
+      502    0.001    0.000    0.001    0.000 /home/khoa/tensorflow/local/lib/python2.7/site-packages/google/protobuf/internal/type_checkers.py:118(CheckValue)
+        1    0.000    0.000    0.001    0.001 /home/khoa/tensorflow/local/lib/python2.7/site-packages/tensorflow/python/client/session.py:1110(__init__)
+       70    0.000    0.000    0.001    0.000 /home/khoa/tensorflow/local/lib/python2.7/site-packages/tensorflow/python/framework/tensor_shape.py:572(concatenate)
+        1    0.000    0.000    0.001    0.001 /home/khoa/tensorflow/local/lib/python2.7/site-packages/tensorflow/python/client/session.py:451(__init__)
+     2282    0.001    0.000    0.001    0.000 {method 'startswith' of 'str' objects}
+       15    0.000    0.000    0.001    0.000 /home/khoa/tensorflow/local/lib/python2.7/site-packages/numpy/core/fromnumeric.py:2433(prod)
+     2770    0.001    0.000    0.001    0.000 /home/khoa/tensorflow/local/lib/python2.7/site-packages/tensorflow/python/framework/tensor_shape.py:462(dims)
+        1    0.001    0.001    0.001    0.001 {_pywrap_tensorflow.TF_NewSession}
+     3021    0.001    0.000    0.001    0.000 /home/khoa/tensorflow/local/lib/python2.7/site-packages/tensorflow/python/framework/ops.py:1294(_id)
+     1007    0.001    0.000    0.001    0.000 {max}
+     3023    0.001    0.000    0.001    0.000 /home/khoa/tensorflow/local/lib/python2.7/site-packages/google/protobuf/internal/message_listener.py:77(Modified)
+      193    0.000    0.000    0.001    0.000 /home/khoa/tensorflow/local/lib/python2.7/site-packages/google/protobuf/internal/decoder.py:257(InnerDecode)
+     3293    0.001    0.000    0.001    0.000 /home/khoa/tensorflow/local/lib/python2.7/site-packages/tensorflow/python/framework/tensor_shape.py:74(value)
+     1007    0.001    0.000    0.001    0.000 {sys.exc_info}
+     3147    0.001    0.000    0.001    0.000 /home/khoa/tensorflow/local/lib/python2.7/site-packages/tensorflow/python/framework/dtypes.py:133(as_datatype_enum)
+       15    0.000    0.000    0.001    0.000 /home/khoa/tensorflow/local/lib/python2.7/site-packages/numpy/core/_methods.py:34(_prod)
+       15    0.001    0.000    0.001    0.000 {method 'reduce' of 'numpy.ufunc' objects}
+     1309    0.001    0.000    0.001    0.000 /home/khoa/tensorflow/local/lib/python2.7/site-packages/tensorflow/python/client/session.py:231(unique_fetches)
+        2    0.000    0.000    0.001    0.000 /home/khoa/tensorflow/local/lib/python2.7/site-packages/tensorflow/python/framework/ops.py:3992(op_scope)
+     2014    0.001    0.000    0.001    0.000 /home/khoa/tensorflow/local/lib/python2.7/site-packages/tensorflow/python/framework/importer.py:135(_MaybeDevice)
+1018/1014    0.000    0.000    0.001    0.000 {issubclass}
+     1007    0.001    0.000    0.001    0.000 /home/khoa/tensorflow/local/lib/python2.7/site-packages/tensorflow/python/framework/ops.py:3186(_record_op_seen_by_control_dependencies)
+     1309    0.000    0.000    0.000    0.000 /home/khoa/tensorflow/local/lib/python2.7/site-packages/tensorflow/python/client/session.py:384(fetches)
+        1    0.000    0.000    0.000    0.000 /home/khoa/tensorflow/local/lib/python2.7/site-packages/tensorflow/python/framework/ops.py:3769(_get_graph_from_inputs)
+        2    0.000    0.000    0.000    0.000 /home/khoa/tensorflow/local/lib/python2.7/site-packages/tensorflow/python/framework/ops.py:3708(_GetGlobalDefaultGraph)
+       95    0.000    0.000    0.000    0.000 /home/khoa/tensorflow/local/lib/python2.7/site-packages/tensorflow/python/framework/common_shapes.py:28(unchanged_shape)
+        1    0.000    0.000    0.000    0.000 /home/khoa/tensorflow/local/lib/python2.7/site-packages/tensorflow/python/framework/ops.py:1935(__init__)
+       97    0.000    0.000    0.000    0.000 /home/khoa/tensorflow/local/lib/python2.7/site-packages/google/protobuf/internal/decoder.py:297(InnerDecode)
+     1309    0.000    0.000    0.000    0.000 /home/khoa/tensorflow/local/lib/python2.7/site-packages/tensorflow/python/client/session.py:392(targets)
+       95    0.000    0.000    0.000    0.000 /home/khoa/tensorflow/local/lib/python2.7/site-packages/google/protobuf/internal/encoder.py:604(EncodeField)
+     1007    0.000    0.000    0.000    0.000 /home/khoa/tensorflow/local/lib/python2.7/site-packages/tensorflow/python/framework/ops.py:2082(_get_control_flow_context)
+        1    0.000    0.000    0.000    0.000 /home/khoa/tensorflow/local/lib/python2.7/site-packages/tensorflow/python/ops/image_ops.py:1005(_ResizeShape)
+        1    0.000    0.000    0.000    0.000 /home/khoa/tensorflow/local/lib/python2.7/site-packages/tensorflow/python/ops/array_ops.py:1833(_ReshapeShape)
+     1007    0.000    0.000    0.000    0.000 /home/khoa/tensorflow/local/lib/python2.7/site-packages/tensorflow/python/framework/ops.py:1455(_input_dtypes)
+     1018    0.000    0.000    0.000    0.000 /home/khoa/tensorflow/local/lib/python2.7/site-packages/tensorflow/python/framework/ops.py:1431(__init__)
+     1018    0.000    0.000    0.000    0.000 /home/khoa/tensorflow/local/lib/python2.7/site-packages/tensorflow/python/framework/ops.py:1446(__getitem__)
+     1041    0.000    0.000    0.000    0.000 /home/khoa/tensorflow/local/lib/python2.7/site-packages/tensorflow/python/framework/dtypes.py:96(is_ref_dtype)
+      6/5    0.000    0.000    0.000    0.000 /home/khoa/tensorflow/lib/python2.7/abc.py:148(__subclasscheck__)
+        3    0.000    0.000    0.000    0.000 /usr/lib/python2.7/collections.py:38(__init__)
+      108    0.000    0.000    0.000    0.000 {any}
+     1152    0.000    0.000    0.000    0.000 /home/khoa/tensorflow/local/lib/python2.7/site-packages/google/protobuf/internal/encoder.py:203(FieldSize)
+        1    0.000    0.000    0.000    0.000 /home/khoa/tensorflow/lib/python2.7/encodings/__init__.py:71(search_function)
+        1    0.000    0.000    0.000    0.000 /home/khoa/tensorflow/local/lib/python2.7/site-packages/tensorflow/python/framework/tensor_util.py:634(constant_value_as_shape)
+        1    0.000    0.000    0.000    0.000 /home/khoa/tensorflow/local/lib/python2.7/site-packages/tensorflow/python/ops/array_ops.py:1725(_ExpandDimsShape)
+        2    0.000    0.000    0.000    0.000 {__import__}
+     1007    0.000    0.000    0.000    0.000 /home/khoa/tensorflow/local/lib/python2.7/site-packages/google/protobuf/descriptor.py:118(GetOptions)
+      193    0.000    0.000    0.000    0.000 /home/khoa/tensorflow/local/lib/python2.7/site-packages/google/protobuf/internal/encoder.py:671(EncodeField)
+       97    0.000    0.000    0.000    0.000 {_struct.pack}
+     1007    0.000    0.000    0.000    0.000 {method 'reverse' of 'list' objects}
+       35    0.000    0.000    0.000    0.000 /home/khoa/tensorflow/local/lib/python2.7/site-packages/tensorflow/python/framework/tensor_shape.py:139(__add__)
+        1    0.000    0.000    0.000    0.000 /home/khoa/tensorflow/local/lib/python2.7/site-packages/tensorflow/python/client/session.py:1139(__exit__)
+       97    0.000    0.000    0.000    0.000 {_struct.unpack}
+        3    0.000    0.000    0.000    0.000 /home/khoa/tensorflow/local/lib/python2.7/site-packages/tensorflow/python/ops/math_ops.py:1746(_BroadcastShape)
+      324    0.000    0.000    0.000    0.000 /home/khoa/tensorflow/local/lib/python2.7/site-packages/tensorflow/python/framework/common_shapes.py:146(<genexpr>)
+        1    0.000    0.000    0.000    0.000 /home/khoa/tensorflow/local/lib/python2.7/site-packages/tensorflow/python/framework/common_shapes.py:84(matmul_shape)
+        1    0.000    0.000    0.000    0.000 {sorted}
+        3    0.000    0.000    0.000    0.000 /home/khoa/tensorflow/lib/python2.7/_abcoll.py:526(update)
+      108    0.000    0.000    0.000    0.000 {all}
+      190    0.000    0.000    0.000    0.000 /home/khoa/tensorflow/local/lib/python2.7/site-packages/tensorflow/python/framework/common_shapes.py:165(_same)
+       12    0.000    0.000    0.000    0.000 /home/khoa/tensorflow/local/lib/python2.7/site-packages/numpy/core/fromnumeric.py:353(repeat)
+       14    0.000    0.000    0.000    0.000 /home/khoa/tensorflow/lib/python2.7/_weakrefset.py:58(__iter__)
+      216    0.000    0.000    0.000    0.000 /home/khoa/tensorflow/local/lib/python2.7/site-packages/tensorflow/python/framework/common_shapes.py:143(<genexpr>)
+       12    0.000    0.000    0.000    0.000 {method 'repeat' of 'numpy.ndarray' objects}
+        1    0.000    0.000    0.000    0.000 /usr/lib/python2.7/subprocess.py:1099(_get_handles)
+        1    0.000    0.000    0.000    0.000 /home/khoa/tensorflow/lib/python2.7/encodings/ascii.py:8(<module>)
+       12    0.000    0.000    0.000    0.000 /home/khoa/tensorflow/local/lib/python2.7/site-packages/google/protobuf/internal/encoder.py:260(RepeatedFieldSize)
+        1    0.000    0.000    0.000    0.000 /home/khoa/tensorflow/local/lib/python2.7/site-packages/tensorflow/python/ops/image_ops.py:1030(_ImageDecodeShape)
+       14    0.000    0.000    0.000    0.000 /home/khoa/tensorflow/local/lib/python2.7/site-packages/tensorflow/python/framework/ops.py:3412(prevent_feeding)
+        2    0.000    0.000    0.000    0.000 /usr/lib/python2.7/subprocess.py:1161(pipe_cloexec)
+        1    0.000    0.000    0.000    0.000 /home/khoa/tensorflow/local/lib/python2.7/site-packages/tensorflow/python/client/session.py:506(close)
+        1    0.000    0.000    0.000    0.000 /home/khoa/tensorflow/local/lib/python2.7/site-packages/tensorflow/python/ops/array_ops.py:2751(_PlaceholderWithDefaultShape)
+        1    0.000    0.000    0.000    0.000 /home/khoa/tensorflow/local/lib/python2.7/site-packages/tensorflow/python/platform/gfile.py:214(__init__)
+        1    0.000    0.000    0.000    0.000 /home/khoa/tensorflow/lib/python2.7/genericpath.py:26(isfile)
+        3    0.000    0.000    0.000    0.000 /home/khoa/tensorflow/local/lib/python2.7/site-packages/google/protobuf/internal/decoder.py:517(DecodeRepeatedField)
+       37    0.000    0.000    0.000    0.000 /home/khoa/tensorflow/local/lib/python2.7/site-packages/six.py:557(next)
+       22    0.000    0.000    0.000    0.000 {method 'add' of 'set' objects}
+        1    0.000    0.000    0.000    0.000 /home/khoa/tensorflow/local/lib/python2.7/site-packages/tensorflow/python/framework/common_shapes.py:44(_ShapeFunction)
+        4    0.000    0.000    0.000    0.000 /usr/lib/python2.7/subprocess.py:1148(_set_cloexec_flag)
+        2    0.000    0.000    0.000    0.000 {posix.stat}
+       14    0.000    0.000    0.000    0.000 {method 'reshape' of 'numpy.ndarray' objects}
+        1    0.000    0.000    0.000    0.000 /home/khoa/tensorflow/local/lib/python2.7/site-packages/tensorflow/python/platform/gfile.py:230(__init__)
+        1    0.000    0.000    0.000    0.000 {posix.fdopen}
+        1    0.000    0.000    0.000    0.000 /home/khoa/tensorflow/local/lib/python2.7/site-packages/tensorflow/python/framework/ops.py:2519(get_tensor_by_name)
+       37    0.000    0.000    0.000    0.000 /home/khoa/tensorflow/local/lib/python2.7/site-packages/tensorflow/python/platform/gfile.py:166(__next__)
+        1    0.000    0.000    0.000    0.000 /home/khoa/tensorflow/local/lib/python2.7/site-packages/tensorflow/python/platform/gfile.py:69(__exit__)
+        8    0.000    0.000    0.000    0.000 {fcntl.fcntl}
+        1    0.000    0.000    0.000    0.000 /home/khoa/tensorflow/local/lib/python2.7/site-packages/six.py:91(__get__)
+        5    0.000    0.000    0.000    0.000 /home/khoa/tensorflow/local/lib/python2.7/site-packages/tensorflow/python/framework/tensor_shape.py:183(__mul__)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python2.7/subprocess.py:1208(_close_in_parent)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python2.7/threading.py:113(RLock)
+        8    0.000    0.000    0.000    0.000 /home/khoa/tensorflow/local/lib/python2.7/site-packages/google/protobuf/internal/encoder.py:192(PackedFieldSize)
+        2    0.000    0.000    0.000    0.000 /home/khoa/tensorflow/local/lib/python2.7/site-packages/google/protobuf/internal/encoder.py:581(EncodePackedField)
+       26    0.000    0.000    0.000    0.000 /home/khoa/tensorflow/local/lib/python2.7/site-packages/tensorflow/python/framework/common_shapes.py:153(_valid)
+        4    0.000    0.000    0.000    0.000 /home/khoa/tensorflow/lib/python2.7/_weakrefset.py:26(__exit__)
+        1    0.000    0.000    0.000    0.000 /home/khoa/tensorflow/local/lib/python2.7/site-packages/tensorflow/python/platform/gfile.py:201(close)
+        3    0.000    0.000    0.000    0.000 /home/khoa/tensorflow/local/lib/python2.7/site-packages/google/protobuf/internal/encoder.py:711(EncodeRepeatedField)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python2.7/threading.py:131(__init__)
+        3    0.000    0.000    0.000    0.000 /home/khoa/tensorflow/lib/python2.7/_weakrefset.py:36(__init__)
+        1    0.000    0.000    0.000    0.000 /home/khoa/tensorflow/local/lib/python2.7/site-packages/tensorflow/python/platform/gfile.py:233(lock)
+       37    0.000    0.000    0.000    0.000 {next}
+        1    0.000    0.000    0.000    0.000 /home/khoa/tensorflow/local/lib/python2.7/site-packages/tensorflow/python/framework/tensor_shape.py:775(__eq__)
+        4    0.000    0.000    0.000    0.000 /home/khoa/tensorflow/lib/python2.7/_weakrefset.py:20(__enter__)
+        1    0.000    0.000    0.000    0.000 /home/khoa/tensorflow/local/lib/python2.7/site-packages/tensorflow/python/framework/tensor_shape.py:728(assert_is_compatible_with)
+        1    0.000    0.000    0.000    0.000 /home/khoa/tensorflow/lib/python2.7/encodings/ascii.py:41(getregentry)
+        4    0.000    0.000    0.000    0.000 /home/khoa/tensorflow/lib/python2.7/_weakrefset.py:83(add)
+        1    0.000    0.000    0.000    0.000 /home/khoa/tensorflow/local/lib/python2.7/site-packages/tensorflow/python/pywrap_tensorflow.py:280(TF_NewSessionOptions)
+        1    0.000    0.000    0.000    0.000 /home/khoa/tensorflow/local/lib/python2.7/site-packages/six.py:159(_resolve)
+        3    0.000    0.000    0.000    0.000 {posix.close}
+        1    0.000    0.000    0.000    0.000 /home/khoa/tensorflow/lib/python2.7/encodings/__init__.py:49(normalize_encoding)
+        1    0.000    0.000    0.000    0.000 /home/khoa/tensorflow/local/lib/python2.7/site-packages/tensorflow/python/client/session.py:547(as_default)
+        2    0.000    0.000    0.000    0.000 {posix.pipe}
+        1    0.000    0.000    0.000    0.000 /usr/lib/python2.7/threading.py:146(acquire)
+        7    0.000    0.000    0.000    0.000 /home/khoa/tensorflow/local/lib/python2.7/site-packages/google/protobuf/internal/type_checkers.py:100(CheckValue)
+        1    0.000    0.000    0.000    0.000 /home/khoa/tensorflow/lib/python2.7/genericpath.py:15(exists)
+        1    0.000    0.000    0.000    0.000 /home/khoa/tensorflow/local/lib/python2.7/site-packages/tensorflow/python/platform/gfile.py:236(unlock)
+        1    0.000    0.000    0.000    0.000 /home/khoa/tensorflow/lib/python2.7/stat.py:49(S_ISREG)
+        1    0.000    0.000    0.000    0.000 /home/khoa/tensorflow/lib/python2.7/codecs.py:77(__new__)
+        1    0.000    0.000    0.000    0.000 /home/khoa/tensorflow/local/lib/python2.7/site-packages/tensorflow/python/client/session.py:1134(__enter__)
+        1    0.000    0.000    0.000    0.000 {_pywrap_tensorflow.TF_CloseSession}
+        1    0.000    0.000    0.000    0.000 /usr/lib/python2.7/threading.py:186(release)
+        2    0.000    0.000    0.000    0.000 {numpy.core.multiarray.fromstring}
+        1    0.000    0.000    0.000    0.000 {_pywrap_tensorflow._TF_NewSessionOptions}
+        1    0.000    0.000    0.000    0.000 /home/khoa/tensorflow/local/lib/python2.7/site-packages/six.py:80(_import_module)
+        4    0.000    0.000    0.000    0.000 /home/khoa/tensorflow/lib/python2.7/_abcoll.py:98(__subclasshook__)
+        4    0.000    0.000    0.000    0.000 /home/khoa/tensorflow/lib/python2.7/_weakrefset.py:52(_commit_removals)
+        1    0.000    0.000    0.000    0.000 /home/khoa/tensorflow/local/lib/python2.7/site-packages/tensorflow/python/framework/tensor_shape.py:57(__ne__)
+        4    0.000    0.000    0.000    0.000 {thread.allocate_lock}
+       36    0.000    0.000    0.000    0.000 {method 'rstrip' of 'str' objects}
+        5    0.000    0.000    0.000    0.000 {method 'remove' of 'set' objects}
+        1    0.000    0.000    0.000    0.000 /usr/lib/python2.7/subprocess.py:458(_cleanup)
+        1    0.000    0.000    0.000    0.000 {gc.enable}
+        1    0.000    0.000    0.000    0.000 /home/khoa/tensorflow/local/lib/python2.7/site-packages/tensorflow/python/framework/tensor_shape.py:819(scalar)
+        1    0.000    0.000    0.000    0.000 /home/khoa/tensorflow/local/lib/python2.7/site-packages/tensorflow/python/framework/ops.py:3544(default_session)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python2.7/threading.py:58(__init__)
+        6    0.000    0.000    0.000    0.000 /home/khoa/tensorflow/local/lib/python2.7/site-packages/tensorflow/python/framework/tensor_shape.py:475(__len__)
+        4    0.000    0.000    0.000    0.000 /home/khoa/tensorflow/lib/python2.7/_weakrefset.py:16(__init__)
+        1    0.000    0.000    0.000    0.000 {_pywrap_tensorflow.TF_DeleteSessionOptions}
+        1    0.000    0.000    0.000    0.000 {delattr}
+        1    0.000    0.000    0.000    0.000 /home/khoa/tensorflow/local/lib/python2.7/site-packages/tensorflow/python/framework/tensor_shape.py:47(__eq__)
+        1    0.000    0.000    0.000    0.000 /home/khoa/tensorflow/local/lib/python2.7/site-packages/pkg_resources/extern/__init__.py:23(find_module)
+        1    0.000    0.000    0.000    0.000 {method 'update' of 'set' objects}
+        1    0.000    0.000    0.000    0.000 /home/khoa/tensorflow/lib/python2.7/stat.py:24(S_IFMT)
+        2    0.000    0.000    0.000    0.000 /home/khoa/tensorflow/local/lib/python2.7/site-packages/tensorflow/python/framework/ops.py:2717(name_scope)
+        2    0.000    0.000    0.000    0.000 /usr/lib/python2.7/threading.py:63(_note)
+        2    0.000    0.000    0.000    0.000 {method '__subclasses__' of 'type' objects}
+        1    0.000    0.000    0.000    0.000 {method 'replace' of 'str' objects}
+        1    0.000    0.000    0.000    0.000 /home/khoa/tensorflow/local/lib/python2.7/site-packages/six.py:184(find_module)
+        1    0.000    0.000    0.000    0.000 /home/khoa/tensorflow/lib/python2.7/encodings/ascii.py:13(Codec)
+        1    0.000    0.000    0.000    0.000 {_pywrap_tensorflow._TF_SetTarget}
+        1    0.000    0.000    0.000    0.000 /home/khoa/tensorflow/local/lib/python2.7/site-packages/tensorflow/python/framework/tensor_shape.py:757(as_list)
+        1    0.000    0.000    0.000    0.000 {method 'insert' of 'list' objects}
+        1    0.000    0.000    0.000    0.000 /home/khoa/tensorflow/local/lib/python2.7/site-packages/tensorflow/python/framework/importer.py:221(<dictcomp>)
+        1    0.000    0.000    0.000    0.000 /home/khoa/tensorflow/lib/python2.7/encodings/ascii.py:24(IncrementalDecoder)
+        2    0.000    0.000    0.000    0.000 /home/khoa/tensorflow/local/lib/python2.7/site-packages/tensorflow/python/framework/op_def_registry.py:40(get_registered_ops)
+        1    0.000    0.000    0.000    0.000 {method 'difference' of 'frozenset' objects}
+        1    0.000    0.000    0.000    0.000 {method 'acquire' of 'thread.lock' objects}
+        1    0.000    0.000    0.000    0.000 /home/khoa/tensorflow/lib/python2.7/encodings/ascii.py:20(IncrementalEncoder)
+        1    0.000    0.000    0.000    0.000 {method 'partition' of 'str' objects}
+        1    0.000    0.000    0.000    0.000 /home/khoa/tensorflow/local/lib/python2.7/site-packages/tensorflow/python/platform/gfile.py:65(__enter__)
+        1    0.000    0.000    0.000    0.000 {gc.disable}
+        1    0.000    0.000    0.000    0.000 /home/khoa/tensorflow/local/lib/python2.7/site-packages/pkg_resources/_vendor/six.py:184(find_module)
+        2    0.000    0.000    0.000    0.000 {thread.get_ident}
+        1    0.000    0.000    0.000    0.000 {built-in method __new__ of type object at 0x919120}
+        1    0.000    0.000    0.000    0.000 {gc.isenabled}
+        1    0.000    0.000    0.000    0.000 {method 'release' of 'thread.lock' objects}
+        1    0.000    0.000    0.000    0.000 /home/khoa/tensorflow/local/lib/python2.7/site-packages/tensorflow/python/framework/ops.py:2046(graph_def_versions)
+        1    0.000    0.000    0.000    0.000 {method 'join' of 'str' objects}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+        1    0.000    0.000    0.000    0.000 /home/khoa/tensorflow/lib/python2.7/encodings/ascii.py:28(StreamWriter)
+        1    0.000    0.000    0.000    0.000 /home/khoa/tensorflow/lib/python2.7/encodings/ascii.py:31(StreamReader)
+        1    0.000    0.000    0.000    0.000 {method 'keys' of 'dict' objects}
+        1    0.000    0.000    0.000    0.000 /home/khoa/tensorflow/lib/python2.7/encodings/ascii.py:34(StreamConverter)
+        1    0.000    0.000    0.000    0.000 {method 'values' of 'dict' objects}
+        1    0.000    0.000    0.000    0.000 {method 'pop' of 'dict' objects}
+        1    0.000    0.000    0.000    0.000 {method 'translate' of 'str' objects}
+        1    0.000    0.000    0.000    0.000 /home/khoa/tensorflow/local/lib/python2.7/site-packages/tensorflow/python/platform/gfile.py:161(__iter__)
+
+
